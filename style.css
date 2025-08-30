@@ -1,1 +1,26 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Tuffy:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+.root {
+    --primary-color: #4263EB;
+    --text-primary: #1b1b1b;
+    --text-secondary: #6b7280;
+    --background-light: #f8f9ff;
+    --bordor-color: #e5e7eb;
+    --base-font-size: 15px;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    outline: none;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Inter', sans-serif;
+    color: var(--text-primary);
+    line-height: 1.5;
+    background-color: #fff;
+    min-height: 100vh;
+    font-size: var(--base-font-size);
+}
