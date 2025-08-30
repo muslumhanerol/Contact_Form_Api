@@ -24,3 +24,20 @@ body {
     min-height: 100vh;
     font-size: var(--base-font-size);
 }
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.5rem 2rem;
+    background-color: #fff;
+    border-bottom: 1px solid var(--bordor-color);
+
+}
+
+.logo {
+    height: 32px;
+    width: 32px;
+    object-fit: contain;
+
+}
