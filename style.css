@@ -32,14 +32,28 @@ body {
     padding: 0.5rem 2rem;
     background-color: #fff;
     border-bottom: 1px solid var(--bordor-color);
+}
 
+.nav-logo {
+    display: flex;
+    align-items: center;
 }
 
 .logo {
     height: 32px;
     width: 32px;
+    /* object-fit: cover; */
     object-fit: contain;
-
 }
 
-8.36
+.nav-links {
+    display: flex;
+    gap: 2rem;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: var(--text-secondary);
+    font-weight: 500;
+    transition: color 0.2s ease;
+}
