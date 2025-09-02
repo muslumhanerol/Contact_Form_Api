@@ -57,3 +57,46 @@ body {
     font-weight: 500;
     transition: color 0.2s ease;
 }
+
+.nav-links a:hover {
+    color: var(--text-primary);
+}
+
+.nav-buttons {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.login-btn {
+    /* background-color: blue;
+    color: #fff;
+    text-align: none;
+    font-weight: 500; */
+    background-color: blue;
+    color: #fff;
+    padding: 0.4rem 1rem;
+    border-radius: 6px;
+    text-decoration: none;
+    font-weight: 500;
+    transition: opacity 0.2s ease;
+}
+
+.login-btn:hover {
+    opacity: 0.9;
+}
+
+
+.try-btn {
+    background-color: green;
+    color: #fff;
+    padding: 0.4rem 1rem;
+    border-radius: 6px;
+    text-decoration: none;
+    font-weight: 500;
+    transition: opacity 0.2s ease;
+}
+
+.try-btn:hover {
+    opacity: 0.9;
+}
