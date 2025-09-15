@@ -100,3 +100,12 @@ body {
 .try-btn:hover {
     opacity: 0.9;
 }
+
+.main-content {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-area: 4rem;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 2rem;
+}
