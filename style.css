@@ -171,4 +171,14 @@ select {
 
 select {
     appearance: none;
+    background-image: url();
+    background-repeat: no-repeat;
+    background-position: right 1rem center;
+    padding-right: 2.5rem;
+    cursor: pointer;
+}
+
+textarea {
+    height: 120px;
+    resize: vertical;
 }
