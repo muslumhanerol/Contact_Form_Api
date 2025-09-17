@@ -213,4 +213,10 @@ button:hover {
     background: #fff;
     border-radius: 12px;
     margin-bottom: 1rem;
+    transition: transform 0.2s ease;
+    cursor: pointer;
+}
+
+.resources-card:hover {
+    transform: translateY(-2px);
 }
