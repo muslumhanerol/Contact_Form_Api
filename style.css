@@ -195,3 +195,22 @@ button {
     cursor: pointer;
     transition: opacity 0.2s ease;
 }
+
+button:hover {
+    opacity: 0.9;
+}
+
+.right-section {
+    background-color: lightcyan;
+    padding: 1rem 2rem;
+    border-radius: 16px;
+}
+
+.resources-card {
+    display: flex;
+    gap: 1rem;
+    padding: 1.5rem;
+    background: #fff;
+    border-radius: 12px;
+    margin-bottom: 1rem;
+}
