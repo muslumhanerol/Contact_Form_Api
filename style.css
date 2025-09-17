@@ -220,3 +220,14 @@ button:hover {
 .resources-card:hover {
     transform: translateY(-2px);
 }
+
+.resource-icon {
+    flex-shrink: 0;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: lightgray;
+    border-radius: 12px;
+}
