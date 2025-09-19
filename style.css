@@ -243,3 +243,10 @@ button:hover {
     font-size: 0.82rem;
     line-height: 1.5;
 }
+
+#success-message {
+    position: fixed;
+    bottom: 2rem;
+    left: 50%;
+    transform: translateX(-50%);
+}
