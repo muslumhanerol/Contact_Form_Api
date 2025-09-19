@@ -260,5 +260,29 @@ button:hover {
 
 #success-message:not(.hidden) {
     opacity: 1;
+}
 
+@media screen and (max-width: 1024px) {
+    .main-content {
+        grid-template-columns: 1fr;
+        gap: 2rem;
+    }
+
+    .left-section {
+        max-width: 100%;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .nav-links {
+        display: none;
+    }
+
+    .main-content {
+        padding: 2rem 1rem;
+    }
+
+    h1 {
+        font-size: 1.3rem;
+    }
 }
