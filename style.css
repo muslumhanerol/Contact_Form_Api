@@ -249,4 +249,16 @@ button:hover {
     bottom: 2rem;
     left: 50%;
     transform: translateX(-50%);
+    background-color: #10b981;
+    color: #fff;
+    padding: 1rem 2rem;
+    border-radius: 8px;
+    font-weight: 500;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+}
+
+#success-message:not(.hidden) {
+    opacity: 1;
+
 }
