@@ -15,5 +15,20 @@ constactForm.addEventListener('submit', function (event) {
         subject: document.getElementById('subject').value,
         message: document.getElementById('message').value,
         reply_to: document.getElementById('email').value
-    }
-})
+    };
+
+    emailjs.send('service_ngdpllo', 'service_ngdpllo', formData).then(function (response) {
+        successMessage.classList.remove('hidden');
+
+        constactForm.reset();
+
+        setTimeout(() => {
+            successMessage.classList.add('hidden');
+        }, 5000);
+
+    }).catch(function (error) {
+        alert('Failed to send message. Please try again:');
+
+    }),    
+
+});
