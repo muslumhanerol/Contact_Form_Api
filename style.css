@@ -302,4 +302,29 @@ button:hover {
         font-size: 0.93rem;
 
     }
+
+    .resource-content h3 {
+        font-size: 0.9rem;
+    }
+
+    .resource-content p {
+        font-size: 0.78rem;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .form-row {
+        flex-direction: column;
+        gap: 0;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .nav-buttons {
+        gap: 0.5rem;
+    }
+
+    .try-btn {
+        padding: 0.5rem 0.75rem;
+    }
 }
