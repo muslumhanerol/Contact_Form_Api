@@ -29,6 +29,6 @@ constactForm.addEventListener('submit', function (event) {
     }).catch(function (error) {
         alert('Failed to send message. Please try again:');
 
-    }),    
+    });
 
 });
